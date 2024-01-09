@@ -370,10 +370,136 @@ height: 150px;
 flex-shrink: 0;
 
 }
+.Subscribe{
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.lastP{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.inp{
+    width: 648px;
+height: 72px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;
+color: #ffffff;
+}
+.btnS{
+    width: 210px;
+height: 72px;
+flex-shrink: 0;
+margin-left: -215px;
+border-radius: 0px 50px 50px 0px;
+background: #FF0000;
+}
+.btnT{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+
+
+
+
+
 
 .Merriweather{
     font-family: 'Merriweather', serif;
 }
 .Inter{
     font-family: 'Inter', sans-serif;
+}
+
+
+footer{
+    width: 1600px;
+    height: 609px;
+flex-shrink: 0;
+background-color: #070211;
+}
+.fPara{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; 
+}
+.phone{
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+}
+.website{
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+color: #ffffff;
+}
+.mobile{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+}
+.site{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+}
+.copy{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.lastU{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.icon{
+    width: 64px;
+height: 64px;
+flex-shrink: 0;
+}
+.row1{
+    display: flex;
+}
+.row2{
+    display: flex;
+    
+}
+.row3{
+    display: flex;
 }
