@@ -3,7 +3,7 @@
 body{
     box-sizing: border-box;
     width: 100%;
-    height: 7335px;
+    height: 6000px;
     text-align: center;
 }
 .Merriweather{
@@ -190,17 +190,19 @@ body{
     height: 735px;
 }
 .partOne{
-    width: 33%;
+    width: 33.33%;
+    text-align: left;
 }
 .partTwo{
-    width: 33%;
+    width: 33.33%;
 }
 .partThree{
-    width: 33%;
+    width: 33.33%;
+    text-align: left;
+    margin-left: 80px;
 }
 .offer{
     color: #F00;
-    text-align: center;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
@@ -226,9 +228,7 @@ body{
 .imageFive{
     width: 364.844px;
     height: 364.844px;
-    flex-shrink: 0;
     border-radius: 364.844px;
-    background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
 }
 .imageBorder{
     width: 463px;
@@ -336,14 +336,16 @@ body{
     left: 50%;
     top: 0px;
     opacity: 0.9;
+    border-radius: 5%;
 }
 
 
 /*Section Seven Styles*/
 .sectionSeven{
     width: 100%;
-    height: 1200px;
+    height: 1000px;
     background: #a59f9f;
+    margin-top: -300px;
 }
 .gifts{
     color: #F00;
@@ -445,7 +447,7 @@ body{
 
 footer{
     width: 100%;
-    height: 609px;
+    height: 300px;
     flex-shrink: 0;
     background-color: #070211;
 }
@@ -513,11 +515,16 @@ footer{
 }
 .row2{
     display: flex;
+    justify-content: center;
     
 }
 .row3{
     display: flex;
+    justify-content: space-between;
 }
 .inline{
-    display: inline-block;
+    display: flex;
+}
+.clear{
+    
 }
