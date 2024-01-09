@@ -5,6 +5,7 @@ body{
     width: 100%;
     height: 6000px;
     text-align: center;
+    background-color: antiquewhite;
 }
 .Merriweather{
     font-family: 'Merriweather', serif;
@@ -526,5 +527,5 @@ footer{
     display: flex;
 }
 .clear{
-    
+    display: inline;
 }
